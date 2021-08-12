@@ -184,7 +184,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             subttitle: '<i> Racialized Policing',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_language.png',
+            image: 'images/69_language.png',
             description: '<i><small><center> Image: CNAP Injunction </center></small></i> <br> The language used in the lawsuit to justify this injunction is sensational and heavily racialized. <blockquote> <b> “The use of the Apartments by the Crips has turned the surrounding community into an urban gang war zone and poses a clear and present danger to the community.” </b></blockquote>',
             location: {
                 center: [-118.27665, 33.97609],
@@ -211,7 +211,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             subtitle: '<i>Closure and Relocation',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_demo.png',
+            image: 'images/69_demo.png',
             description: '<i><small><center> Image: 69th and Main Demolition </center></small></i> <br> This was the first case that closed down a property through a preliminary injunction, completely vacating its units and disallowing renting to new tenants. Having been involved in the property’s closure, Councilwoman Jan Perry’s office had to secure emergency funding for the tenants displaced during the closure.',
             location: {
                 center: [-118.27665, 33.97609],
@@ -238,7 +238,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             subtitle: '<i> Redevelopment',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_render.png',
+            image: 'images/69_render.png',
             description: '<i><small><center> Image: 69th and Main Redevelopment Rendering </center></small></i> <br>The Community Redevelopment Agency purchased the properties at 69th and Main in 2006 for redevelopment into townhomes, and demolition was underway by 2007. The property lay vacant for more than a decade, through the dissolution of the CRA. In 2018, ownership was transferred to the City of Los Angeles, which used the site for a permanent supportive housing development funded through Proposition HHH, opened in 2020.',
             location: {
                 center: [-118.27665, 33.97609],
@@ -387,7 +387,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Frontier Hotel',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/rosslyn.jpeg',
+            image: 'images/rosslyn.jpeg',
             description: '<i><small><center> Image: Frontier Hotel, now Rosslyn Lofts </center></small></i> <br> Frontier Hotel was a famous Single Room Occupancy (SRO) hotel located in Skid Row and was home to many families, including LA CAN organizer Steve Diaz. This was one of the first properties placed under a CNAP injunction, establishing precedent for future policing and redevelopment of other SROs. ',
             location: {
                 center: [-118.19236, 34.05574],
@@ -449,7 +449,7 @@ var config = {
             hidden: false,
             subtitle: '<i> Redevelopment',
             description: '<i><small><center> Image: Frontier Hotel, now Rosslyn Lofts </center></small></i> <br> The California Redevelopment Agency (CRA) provided a large construction loan to a private developer, the Amerland Group, that was already under fire from housing justice movements for its harassment of tenants at another residential hotel, the Alexandria. The hotel was transformed into the Rossyln Lofts, a “mixed-income” development which presents itself as located in the “heart of historic Downtown Los Angeles.” ',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/rosslyn.jpeg',
+            image: 'images/rosslyn.jpeg',
             location: {
                 center: [-118.24550, 34.04619],
                 zoom: 16.17,
@@ -652,7 +652,7 @@ var config = {
             hidden: false,
             subtitle: '<i> Surveillance',
             description: '<i><small><center> Image: House rules displayed on the property </center></small></i> <br>As mandated by the injunction, video surveillance was required to “observe the identity and activity of all individuals entering, leaving, and moving around the property.” Still, the perpetual gaze in the form of video technology was not enough as unlimited physical access was granted to LAPD to conduct “regular and frequent” foot patrols devoid of any reason or warrant.',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/109_sign.png',
+            image: 'images/109_sign.png',
             location: {
                 center: [-118.26601, 33.93542],
                 zoom: 16.33,
@@ -781,7 +781,6 @@ var config = {
                 opacity: 0}
         ]
         },
-        ,
         {
             id: 'surveillance-x',
             alignment: 'center',
@@ -881,7 +880,7 @@ var config = {
             hidden: false,
             subtitle: '<i> House Rules',
             description: '<i><small><center> Image: Zerita Jones shares her story </center></small></i> <br>Zerita Jones, a tenant of Chesapeake and leader of the tenant association, describes the house rules mandated by the 2017 injunction.',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/zerita.png',
+            image: 'images/zerita.png',
             location: {
                 center: [-118.34569, 34.01919],
                 zoom: 16.00,
@@ -934,7 +933,7 @@ var config = {
             hidden: false,
             title: 'Las Palmas Motel',
             description: '<i><small><center> Image: Las Palmas Motel </center></small></i> <br> The City Attorney’s Office filed a CNAP complaint for the Las Palmas Motel, a 10-room motel located in South Central Los Angeles providing both short-term lodging and longer-term housing at low costs. Having documented surveillance since 2004, the case filing alleges that the property was a “notorious stronghold and refuge for members and associates of the Florencia 13 criminal street gang.”',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/palmas.png',
+            image: 'images/palmas.png',
             location: {
                 center: [-118.20069, 33.97923],
                 zoom: 11.53,
@@ -969,7 +968,7 @@ var config = {
             hidden: false,
             subtitle: '<i> Surveillance',
             description: '<i><small><center> Image: Language from the CNAP injunction </center></small></i> <br>Like many CNAP cases, the preliminary injunction ordered the property owner to install a video-monitoring system accessible by the LAPD through an internet feed and compatibility with mobile applications, detailed screening and registration of all guests and their vehicles, and armed and licensed security guards. Even further, the final injunction includes additional requirements such that the LAPD can have access to the property.',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/palmas_snip.png',
+            image: 'images/palmas_snip.png',
             location: {
                 center: [-118.27270, 33.96895],
                 zoom: 16.65,
@@ -996,7 +995,7 @@ var config = {
             hidden: false,
             subtitle: '<i> Banishment',
             description: '<i><small><center> Image: List of people banished from Las Palmas </center></small></i> <br> The final injunction also includes a list of 30 individuals to be banned from the property based on allegations of participation in nuisance activities on site. <em> Note: We refuse to further participate in the surveillance state and have chosen to strike out the names of the people banished from the property.</em>',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/palmas_list.png', 
+            image: 'images/palmas_list.png', 
             location: {
                 center: [-118.27270, 33.96895],
                 zoom: 16.65,
