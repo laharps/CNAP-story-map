@@ -42,7 +42,7 @@ var config = {
             id: 'intro-b',
             alignment: 'center',
             hidden: false,
-            //image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/rocky.jpeg',
+           image: 'images/rocky.jpeg',
             description: '<i><small><center> Image: Rocky Delgadillo - LA City Attorney 2001-2009 </center></small></i> <br> Rocky Delgadillo closely supervised CNAP as City Attorney from 2001-2009. Now, as a real estate sector lawyer, he advises clients who are keen to invest in neighborhoods that have “good bones” but that were once “controlled by gangs.” ',
             location: {
                 center: [-118.24254, 34.05369],
