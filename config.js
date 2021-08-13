@@ -15,7 +15,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Introduction',
-            description: 'The Los Angeles Citywide Nuisance Abatement Program (CNAP) allows the City Attorney to sue property owners of “nuisance” buildings and mandate owners to install surveillance, evict tenants, or even close down the property. The program binds together housing and policing, often in service of redevelopment and gentrification. ',
+            description: 'The Los Angeles Citywide Nuisance Abatement Program (CNAP) allows the City Attorney to sue the owners of “nuisance” buildings and mandate owners to install surveillance, evict tenants, or even close down the property. The program binds together housing and policing, often in service of redevelopment and gentrification. ',
             location: {
                 center: [-118.27242, 34.00847],
                 zoom: 8.68,
@@ -70,7 +70,7 @@ var config = {
             id: 'intro-c',
             alignment: 'center',
             hidden: false,
-            description: 'This story map dives into the story of five CNAP properties to understand both how the program has deeply impacted tenants on the properties, as well as organization and resistance to the program. ',
+            description: 'This story map dives into the story of five CNAP properties to understand how the program has deeply impacted tenants on the properties, as well as organization and resistance to the program. ',
             location: {
                 center: [-118.27242, 34.00847],
                 zoom: 8.68,
@@ -184,8 +184,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             subttitle: '<i> Racialized Policing',
-            image: 'images/69_language.png',
-            description: '<i><small><center> Image: CNAP Injunction </center></small></i> <br> The language used in the lawsuit to justify this injunction is sensational and heavily racialized. <blockquote> <b> “The use of the Apartments by the Crips has turned the surrounding community into an urban gang war zone and poses a clear and present danger to the community.” </b></blockquote>',
+            //image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_language.png',
+            description: 'The language used in the lawsuit to justify this injunction is sensational and heavily racialized. <blockquote> <b> “The use of the Apartments by the Crips has turned the surrounding community into an urban gang war zone and poses a clear and present danger to the community.” </b></blockquote>',
             location: {
                 center: [-118.27665, 33.97609],
                 zoom: 16.17,
@@ -238,14 +238,14 @@ var config = {
             hidden: false,
             subtitle: '<i>Closure and Relocation',
             image: 'images/69_demo.png',
-            description: '<i><small><center> Image: 69th and Main Demolition </center></small></i> <br> This was the first case that closed down a property through a preliminary injunction, completely vacating its units and disallowing renting to new tenants. Having been involved in the property’s closure, Councilwoman Jan Perry’s office had to secure emergency funding for the tenants displaced during the closure.',
+            description: '<i><small><center> Image: 69th and Main Demolition </center></small></i> <br> This was the first case that closed down a property through a preliminary injunction, completely vacating its units and disallowing renting to new tenants. After becoming involved in the property’s closure, Councilwoman Jan Perry’s office had to secure emergency funding for the tenants displaced during the closure.',
             location: {
                 center: [-118.27665, 33.97609],
                 zoom: 16.17,
                 pitch: 53.50,
                 bearing: -28
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [{
@@ -265,14 +265,14 @@ var config = {
             hidden: false,
             subtitle: '<i> Redevelopment',
             image: 'images/69_render.png',
-            description: '<i><small><center> Image: 69th and Main Redevelopment Rendering </center></small></i> <br>The Community Redevelopment Agency purchased the properties at 69th and Main in 2006 for redevelopment into townhomes, and demolition was underway by 2007. The property lay vacant for more than a decade, through the dissolution of the CRA. In 2018, ownership was transferred to the City of Los Angeles, which used the site for a permanent supportive housing development funded through Proposition HHH, opened in 2020.',
+            description: '<i><small><center> Image: 69th and Main Redevelopment Rendering </center></small></i> <br>The Community Redevelopment Agency purchased the properties at 69th and Main in 2006 for redevelopment into townhomes, and demolition was underway by 2007. The property lay vacant for more than a decade after the dissolution of the CRA. In 2018, ownership was transferred to the City of Los Angeles, which used the site for a permanent supportive housing development funded through Proposition HHH and opened in 2020.',
             location: {
                 center: [-118.27665, 33.97609],
                 zoom: 16.17,
                 pitch: 53.50,
                 bearing: -28
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [{
@@ -382,7 +382,7 @@ var config = {
             id: 'racial-policing-c',
             alignment: 'center',
             hidden: false,
-            description: 'The City Attorney provides little determination about how CNAP properties are chosen, relying nearly entirely on LAPD discretion, revealed in legal documents to be based heavily on race. CNAP creates another layer of policing in already heavily policed neighborhoods of Los Angeles.',
+            description: 'The City Attorney provides little information about how CNAP properties are chosen, relying nearly entirely on LAPD discretion, which is revealed in legal documents to be based heavily on race. CNAP creates another layer of policing in already heavily policed neighborhoods of Los Angeles.  ',
             location: {
                 center: [-118.27242, 34.00847],
                 zoom: 8.68,
@@ -449,7 +449,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             subtitle: '<i> Embedded Policing',
-            description: 'The property was placed under intense police surveillance and a nuisance abatement injunction was filed against the hotel owners in 2003. In a striking example of police control, the final judgement allowed the LAPD to the hotel as a police substation for four years. ',
+            description: 'The property was placed under intense police surveillance and a nuisance abatement injunction was filed against the hotel owners in 2003. In a striking example of police control, the final judgement allowed the LAPD to use the hotel as a police substation for four years. ',
             location: {
                 center: [-118.24550, 34.04619],
                 zoom: 16.17,
@@ -767,7 +767,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             subtitle: '<i> House Rules',
-            description: 'Finally, the enactment of draconian house rules that included: requiring residents to disclose the names of all household members on an ongoing basis even if the household composition has not changed, visitors obligated to sign in with the manager immediately upon entry of the property, and visitors must always remain accompanied while on the premises, made any alleged violation incurable—guaranteeing eviction.',
+            description: 'The injunction included the enactment of draconian house rules: <ul> <li>requiring residents to disclose the names of all household members on an ongoing basis, even if the household composition has not changed </li> <li> Visitors must sign in with the manager immediately upon entry of the property </li> <li> Visitors must always remain accompanied while on the premises </li> </ul> The violation of any of these rules guaranteed eviction.',
             location: {
                 center: [-118.26601, 33.93542],
                 zoom: 16.33,
@@ -845,7 +845,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             image: 'images/legend_surveil.png', 
-            description: 'Of the CNAP properties where we have surveillance information, 90% were surveilled for over a year and half for at least two years. Some properties have been under increased surveillance for over a decade.',
+            description: 'Of the CNAP properties where we have surveillance information, 90% were surveilled for over a year and nearly half for at least two years. Some properties have been under increased surveillance for over a decade.',
             location: {
                 center: [-118.27242, 34.00847],
                 zoom: 8.68,
