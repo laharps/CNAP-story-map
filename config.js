@@ -363,7 +363,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             subttitle: '<i> Racialized Policing',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_language.png',
+            image: 'images/69_language.png',
             location: {
                 center: [-118.27665, 33.97609],
                 zoom: 16.17,
@@ -389,7 +389,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             subtitle: '<i>Closure and Relocation',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_demo.png',
+            image: 'images/69_demo.png',
             description: '<i><small><center> Image: 69th and Main Demolition </center></small></i> <br> This was the first case that closed down a property through a preliminary injunction, completely vacating its units and disallowing renting to new tenants. After becoming involved in the property’s closure, Councilwoman Jan Perry’s office had to secure emergency funding for the tenants displaced during the closure.',
             location: {
                 center: [-118.27665, 33.97609],
@@ -416,7 +416,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             subtitle: '<i> Redevelopment',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/69_render.png',
+            image: 'images/69_render.png',
             description: '<i><small><center> Image: 69th and Main Redevelopment Rendering </center></small></i> <br>The Community Redevelopment Agency purchased the properties at 69th and Main in 2006 for redevelopment into townhomes, and demolition was underway by 2007. The property lay vacant for more than a decade after the dissolution of the CRA. In 2018, ownership was transferred to the City of Los Angeles, which used the site for a permanent supportive housing development funded through Proposition HHH and opened in 2020.',
             bookmarks: '<a href="#intro-d">Back to Top</a>',
             location: {
@@ -686,7 +686,7 @@ var config = {
             hidden: false,
             title: 'Las Palmas Motel',
             description: '<i><small><center> Image: Las Palmas Motel </center></small></i> <br> The City Attorney’s Office filed a CNAP complaint for the Las Palmas Motel, a 10-room motel located in South Central Los Angeles providing both short-term lodging and longer-term housing at low costs. Las Palmas was under surveillance since 2004 and the case filing alleges that the property was a “notorious stronghold and refuge for members and associates of the Florencia 13 criminal street gang.”',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/palmas.png',
+            image: 'images/palmas.png',
             location: {
                 center: [-118.28329, 33.96715],
                 zoom: 11,
@@ -746,7 +746,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             description: '',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/palmas_snip.png',
+            image: 'images/palmas_snip.png',
             bookmarks: '<center><a href="#intro-d">Back to Top</a>',
             location: {
                 center: [-118.27413, 33.96668],
@@ -940,7 +940,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Frontier Hotel',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/rosslyn.jpeg',
+            image: 'images/rosslyn.jpeg',
             description: '<i><small><center> Image: Frontier Hotel, now Rosslyn Lofts </center></small></i> <br> Frontier Hotel was a famous Single Room Occupancy (SRO) hotel located in Skid Row and was home to many families, including LA CAN organizer Steve Diaz. This was one of the first properties placed under a CNAP injunction, establishing precedent for future policing and redevelopment of other SROs. ',
             location: {
                 center: [-118.19236, 34.05574],
@@ -1073,8 +1073,7 @@ var config = {
             id: 'house-rules-b',
             alignment: 'full',
             hidden: false,
-            //description: '<img src=/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/house_rules.png> ',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/house_rules.png',
+            image: 'images/house_rules.png',
             location: {
                 center: [-118.27242, 34.00847],
                 zoom: 8.68,
@@ -1144,7 +1143,7 @@ var config = {
             hidden: false,
             subtitle: '<i> Surveillance',
             description: '<i><small><center> Image: House rules displayed on the property </center></small></i> <br>As mandated by the injunction, video surveillance was required to “observe the identity and activity of all individuals entering, leaving, and moving around the property.” Still, the perpetual gaze in the form of video technology was not enough as unlimited physical access was granted to LAPD to conduct “regular and frequent” foot patrols devoid of any reason or warrant.',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/109_sign.png',
+            image: 'images/109_sign.png',
             location: {
                 center: [-118.26601, 33.93542],
                 zoom: 16.33,
@@ -1249,7 +1248,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             description: '',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/palmas_list.png', 
+            image: 'images/palmas_list.png', 
             location: {
                 center: [-118.27242, 34.00847],
                 zoom: 8.68,
@@ -1381,7 +1380,7 @@ var config = {
             hidden: false,
             description: '',
             bookmarks: '<center><a href="#intro-d">Back to Top</a>',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/franklin.png',
+            image: 'images/franklin.png',
             location: {
                 center: [-118.25697, 33.94727],
                 zoom: 14.01,
@@ -1446,7 +1445,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             description: '',
-            image: '/Users/harper/Google Drive/3 AEMP/storytelling-main/src/images/vacate.png',
+            image: 'images/vacate.png',
             location: {
                 center: [-117.91573, 33.95623],
                 zoom: 8.82,
